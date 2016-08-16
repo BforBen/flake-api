@@ -50,7 +50,7 @@ namespace Flake.System.Web
                 .Enrich.With<HttpRequestTypeEnricher>()
                 .Enrich.With<HttpRequestUserAgentEnricher>()
                 .Enrich.With<HttpRequestUrlReferrerEnricher>()
-                    .WriteTo.Seq("http://localhost:5341", apiKey: "YnyH2ZrSrOl2GaIpyipZ", bufferBaseFilename: global::System.Web.Hosting.HostingEnvironment.MapPath("~/App_Data/Logs"))
+                    .WriteTo.Seq("http://localhost:5341", apiKey: "m0pspj9sNHLEesTVBb", bufferBaseFilename: global::System.Web.Hosting.HostingEnvironment.MapPath("~/App_Data/Logs"))
                     .CreateLogger();
 
 
